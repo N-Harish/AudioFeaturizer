@@ -32,3 +32,4 @@ from audio_feature.audio_featurizer import *
 spectrogram_plot(r'D:\PYTHON_FILES\audio-ml\genres\classical\classical.00000.wav')
 ```
 
+![Output](https://github.com/N-Harish/AudioFeaturizer/blob/master/Figure_1.png)
