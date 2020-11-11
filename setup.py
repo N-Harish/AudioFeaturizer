@@ -3,12 +3,12 @@ import setuptools
 
 
 setup(
-    name="realpython-reader",
+    name="AudioFeaturizer",
     version="1.0.0",
     description="Takes audio as input and returns computed features as a dataframe",
     url="https://github.com/N-Harish/AudioFeaturizer",
     author_email="harishnatarajan24@gmail.com",
-    author='Harish Natarajan',
+    author='Harish-Natarajan',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
