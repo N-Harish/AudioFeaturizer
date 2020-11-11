@@ -1,11 +1,20 @@
 from setuptools import setup
 import setuptools
+import pathlib
+
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
+
+# The text of the README file
+README = (HERE / "README.md").read_text()
 
 
 setup(
-    name="AudioFeaturizer",
-    version="1.0.0",
+    name="audiofeaturizer",
+    version="1.1.0",
     description="Takes audio as input and returns computed features as a dataframe",
+    long_description=README,
+    long_description_content_type="text/markdown",
     url="https://github.com/N-Harish/AudioFeaturizer",
     author_email="harishnatarajan24@gmail.com",
     author='Harish-Natarajan',

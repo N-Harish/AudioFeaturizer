@@ -49,3 +49,4 @@ def spectrogram_plot(audio_file: str):
     plt.title('Mel-frequency spectrogram')
     plt.colorbar()
     plt.tight_layout()
+    plt.show()
