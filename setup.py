@@ -1,6 +1,7 @@
 from setuptools import setup
 import setuptools
 import pathlib
+import versioneer
 
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
@@ -11,7 +12,8 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="AudioFeaturizer",
-    version="2.0.0",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     description="Takes audio as input and returns computed features as a dataframe",
     long_description=README,
     long_description_content_type="text/markdown",

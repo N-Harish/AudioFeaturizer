@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: AudioFeaturizer
-Version: 2.0.0
+Version: 0+untagged.11.g7a55949.dirty
 Summary: Takes audio as input and returns computed features as a dataframe
 Home-page: UNKNOWN
 Author: Harish-Natarajan

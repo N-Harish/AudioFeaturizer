@@ -1,6 +1,10 @@
+MANIFEST.in
 README.md
+setup.cfg
 setup.py
+versioneer.py
 AudioFeaturizer/__init__.py
+AudioFeaturizer/_version.py
 AudioFeaturizer/audio_featurizer.py
 AudioFeaturizer.egg-info/PKG-INFO
 AudioFeaturizer.egg-info/SOURCES.txt
