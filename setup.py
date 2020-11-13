@@ -10,12 +10,12 @@ README = (HERE / "README.md").read_text()
 
 
 setup(
-    name="audiofeaturizer",
-    version="1.1.0",
+    name="AudioFeaturizer",
+    version="2.0.0",
     description="Takes audio as input and returns computed features as a dataframe",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/N-Harish/AudioFeaturizer",
+    # url="https://github.com/N-Harish/AudioFeaturizer",
     author_email="harishnatarajan24@gmail.com",
     author='Harish-Natarajan',
     license="MIT",
